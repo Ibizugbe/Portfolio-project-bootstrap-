@@ -45,3 +45,51 @@ ul {
   height: 20px;
   width: 20px;
 }
+
+.w-description{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6b778c;
+}
+.canopy{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tech-used ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  margin-left: -18px;
+}
+
+.tech-used li {
+  list-style-type: none;
+  height: 24px;
+  border-radius: 8px;
+  background-color: #ebebff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 7px 12px 1px 12px;
+  letter-spacing: 0.03em;
+  color: #1d34ff;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.button button {
+  color: #396df2;
+  border: 1px solid #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 7px;
+  background-color: #fff;
+}

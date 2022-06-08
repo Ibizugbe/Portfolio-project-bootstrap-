@@ -1,111 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700"
-    />
-  </head>
-  <body>
-    <header>
-      <!-- navbar -->
-      <nav class="navbar navbar-expand-lg bg-light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,700" />
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">AIO</a>
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler hamburger-menu"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Portfolio</a
-                >
+        <button class="navbar-toggler hamburger-menu" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <div class="container-fluid intro-bg pb-5">
+        <div class="row px-5 pt-5 mt-5 pb-5">
+          <div class="col px-5 pt-5 mt-5 pb-5">
+            <h1 class="pe-5 ms-5 mt-5 col-6 intro-header px-5 me-5">
+              I’m Alexandra Glad to see you!
+            </h1>
+            <p class="px-5 ms-5 col-10 intro-paragraph">
+              I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience!
+              If you like what you see and have a project you need coded,
+              don’t hestiate to contact me.
+            </p>
+            <p class="connect px-5 mb-1 ms-5">LET’S CONNECT</p>
+            <ul class="connect-links ps-5 pb-5 ms-5">
+              <li class="pe-2">
+                <img src="./Assets/Icons/twitter-vector.svg" class="connect-icons" alt="" />
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+              <li class="pe-2">
+                <img src="./Assets/Icons/linkedin-vector.svg" class="connect-icons" alt="" />
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+              <li class="pe-2">
+                <img src="./Assets/Icons/medium-vector.svg" class="connect-icons" alt="" />
+              </li>
+              <li class="pe-2">
+                <img src="./Assets/Icons/github-vector.svg" class="connect-icons" alt="" />
+              </li>
+              <li class="pe-2">
+                <img src="./Assets/Icons/social-icon-vector.svg" class="connect-icons" alt="" />
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </section>
 
-    <main>
-      <section id="intro">
-        <div class="container-fluid intro-bg pb-5">
-          <div class="row px-5 pt-5 mt-5 pb-5">
-            <div class="col px-5 pt-5 mt-5 pb-5">
-              <h1 class="pe-5 ms-5 mt-5 col-6 intro-header px-5 me-5">
-                I’m Alexandra Glad to see you!
-              </h1>
-              <p class="px-5 ms-5 col-10 intro-paragraph">
-                I’m a software developer! I can help you build a product ,
-                feature or website Look through some of my work and experience!
-                If you like what you see and have a project you need coded,
-                don’t hestiate to contact me.
-              </p>
-              <p class="connect px-5 mb-1 ms-5">LET’S CONNECT</p>
-              <ul class="connect-links ps-5 pb-5 ms-5">
-                <li class="pe-2">
-                  <img
-                    src="./Assets/Icons/twitter-vector.svg"
-                    class="connect-icons"
-                    alt=""
-                  />
-                </li>
-                <li class="pe-2">
-                  <img
-                    src="./Assets/Icons/linkedin-vector.svg"
-                    class="connect-icons"
-                    alt=""
-                  />
-                </li>
-                <li class="pe-2">
-                  <img
-                    src="./Assets/Icons/medium-vector.svg"
-                    class="connect-icons"
-                    alt=""
-                  />
-                </li>
-                <li class="pe-2">
-                  <img
-                    src="./Assets/Icons/github-vector.svg"
-                    class="connect-icons"
-                    alt=""
-                  />
-                </li>
-                <li class="pe-2">
-                  <img
-                    src="./Assets/Icons/social-icon-vector.svg"
-                    class="connect-icons"
-                    alt=""
-                  />
-                </li>
-              </ul>
+    <section class="work">
+
+      <div class="container-fluid pt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="row">
+                <div class="col-6">
+                  <img src="./Assets/other-images/1st-project-image.png" alt="">
+                </div>
+                <div class="col-6 mt-5">
+                  <h2>Tonic</h2>
+                  <p class="w-description">
+                    <span class="canopy">Canopy</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>Back End dev</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>2015</span>
+                  </p>
+                  <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                  </p>
+                  <div class="tech-used">
+                    <ul>
+                      <li>html</li>
+                      <li>css</li>
+                      <li>javascript</li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button type="button">See Project</button>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+      </div>
 
-    <script src="./js/bootstrap.js"></script>
-  </body>
+
+      <div class="container-fluid pt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="row">
+                <div class="col-6">
+                  <img src="./Assets/other-images/1st-project-image.png" alt="">
+                </div>
+                <div class="col-6 mt-5">
+                  <h2>Tonic</h2>
+                  <p class="w-description">
+                    <span class="canopy">Canopy</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>Back End dev</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>2015</span>
+                  </p>
+                  <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                  </p>
+                  <div class="tech-used">
+                    <ul>
+                      <li>html</li>
+                      <li>css</li>
+                      <li>javascript</li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button type="button">See Project</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid pt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="row">
+                <div class="col-6">
+                  <img src="./Assets/other-images/1st-project-image.png" alt="">
+                </div>
+                <div class="col-6 mt-5">
+                  <h2>Tonic</h2>
+                  <p class="w-description">
+                    <span class="canopy">Canopy</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>Back End dev</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>2015</span>
+                  </p>
+                  <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                  </p>
+                  <div class="tech-used">
+                    <ul>
+                      <li>html</li>
+                      <li>css</li>
+                      <li>javascript</li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button type="button">See Project</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid pt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="row">
+                <div class="col-6">
+                  <img src="./Assets/other-images/1st-project-image.png" alt="">
+                </div>
+                <div class="col-6 mt-5">
+                  <h2>Tonic</h2>
+                  <p class="w-description">
+                    <span class="canopy">Canopy</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>Back End dev</span>
+                    <span>
+                      <img src="./Assets/vectors/Counter.svg" alt="">
+                    </span>
+                    <span>2015</span>
+                  </p>
+                  <p>
+                    A daily selection of privately personalized reads; no accounts or sign-ups required.
+                  </p>
+                  <div class="tech-used">
+                    <ul>
+                      <li>html</li>
+                      <li>css</li>
+                      <li>javascript</li>
+                    </ul>
+                  </div>
+                  <div class="button">
+                    <button type="button">See Project</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </main>
+
+  <script src="./js/bootstrap.js"></script>
+</body>
+
 </html>
