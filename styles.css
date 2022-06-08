@@ -140,3 +140,13 @@ ul {
   line-height: 24px;
   color: #344563;
 }
+
+.contact {
+  background-color: #fff;
+}
+
+.contact-container {
+  background-image: url(./Assets/background-images/contact-form-background-image-web.svg);
+  background-color: #6070ff;
+  border-radius: 90px 0 0 0;
+}
