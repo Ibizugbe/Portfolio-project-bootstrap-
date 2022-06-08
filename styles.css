@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif !important;
+  background-color: #e5e5e5 !important;
 }
 
 .hamburger-menu {
@@ -10,6 +11,7 @@ body {
   background-image: url(./Assets/background-images/background-header-web.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: white;
 }
 
 .intro-header {
@@ -46,13 +48,13 @@ ul {
   width: 20px;
 }
 
-.w-description{
+.w-description {
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   color: #6b778c;
 }
-.canopy{
+.canopy {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -92,4 +94,49 @@ ul {
   padding: 5px 10px;
   border-radius: 7px;
   background-color: #fff;
+}
+
+.project-header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.card {
+  border-radius: 24px !important;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: white !important;
+}
+
+.btn:active {
+  background-color: #2230d2 !important;
+}
+
+.about-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.language-container {
+  background-color: #f7f7f9;
+}
+
+.skills-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #344563;
 }
