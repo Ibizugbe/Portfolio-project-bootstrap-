@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.hamburger-menu {
+  color: green;
+}
+
+.intro-bg {
+  background-image: url(./Assets/background-images/background-header-web.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-header {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #091e42;
+}
+
+.intro-paragraph {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #344563;
+}
+
+.connect {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+ul {
+  list-style: none;
+}
+
+.connect-links {
+  display: flex;
+}
+
+.connect-icons {
+  height: 20px;
+  width: 20px;
+}
